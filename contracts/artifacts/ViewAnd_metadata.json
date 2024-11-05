@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "someAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateSomeAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ViewAndPureFunctions.sol": "ViewAnd"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ViewAndPureFunctions.sol": {
+			"keccak256": "0x9e2bd95284961069bad8f5a79c33f7ed48075e570ea07de1bd574a9e442580df",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://14a2a2a06fe131d7646430c77a6140d0cb31abac0bc0e4f9d72936401af3ece1",
+				"dweb:/ipfs/QmUz86fczh4g2XUyHnjWQ6mCZFvxuv4TdeefXGXWAi7iWp"
+			]
+		}
+	},
+	"version": 1
+}

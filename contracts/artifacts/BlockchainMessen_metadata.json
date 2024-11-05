@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_someAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockchainMessenger.sol": "BlockchainMessen"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockchainMessenger.sol": {
+			"keccak256": "0x3889376542fa741bc35db81b3f1f698525c31910ff9d09355e10ec5dac34cf6c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://bfa0c0e96fdc3471fbf25f4760e0c1ad9b32f9d619b41a154ba74325473057eb",
+				"dweb:/ipfs/QmS6ipJaosGbrv5YYAoYiBrxsFXV69gf9FqWaijwvoYNSi"
+			]
+		}
+	},
+	"version": 1
+}
