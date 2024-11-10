@@ -6,53 +6,56 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "topUpBalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "exWallet",
+						"type": "address"
 					}
 				],
-				"name": "getSum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVariable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "variable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdrawToWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -69,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewAndPureFunctions.sol": "ViewAndPureFunctions"
+			"contracts/Block_2/WalletProject.sol": "WalletProject"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -83,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ViewAndPureFunctions.sol": {
-			"keccak256": "0x3f04f29753c5d416e4cc92f9a272687da7473435f5d873e57c7ae85e7d27a3cd",
+		"contracts/Block_2/WalletProject.sol": {
+			"keccak256": "0x874717a3f8210078d9ca46f80e324f1b30417ef2ed346f8765b639bc4edf4dc3",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bd2c2e6f9e158d119e020f3731342d8292510d0fca306b66a9464046b8f77c71",
-				"dweb:/ipfs/QmVVu7GD8Xqxe9o76jRySTRjaMEA8toDmkhRTTRdsAA5w2"
+				"bzz-raw://ead630021bf02f5d07ee03eeb6566ae69ebb2c7e9e46bee5b0ef7c8810ad0a46",
+				"dweb:/ipfs/QmdoHF32tDtzsvpvz7vvaDpXCLWBYWYTQJD6rwYsZFnKeK"
 			]
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_3/SendAndTransfer.sol": "SendAndTransfer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_3/SendAndTransfer.sol": {
+			"keccak256": "0x80744f4bbd82a52a32de9477d36027868c48eb84a32ae08d62b07214aae9ce65",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://1b658076aa4e4459d5e680c4481cc5e354f0b16d40089bf6d4f2465a5ae4e06d",
+				"dweb:/ipfs/QmYYqBvWM8cNNhrrNNWo4Bss4DkquvvHcb1eERBZWoyuU9"
+			]
+		}
+	},
+	"version": 1
+}

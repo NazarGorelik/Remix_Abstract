@@ -6,23 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "NotAllowedError",
+				"type": "error"
 			},
 			{
 				"inputs": [],
-				"name": "updateSomeAddress",
+				"name": "aFunction",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/Block_3/Exceptions_TryCatch.sol": "Exceptions_TryCatch"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/Block_3/Exceptions_TryCatch.sol": {
+			"keccak256": "0xbf3c18b0cfad58e74e692d537d7698908eced724e3b069f16e39ae0d43faffb0",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://5026bbd99bea538c36df5ee3aed401e62227d10e9dfc5af97fb291f4c0cf7f7c",
+				"dweb:/ipfs/QmRJ9aR6Nmn2KS6qut1ky7xbF1vZbNNVLRoAdGSnxfxqtZ"
 			]
 		}
 	},

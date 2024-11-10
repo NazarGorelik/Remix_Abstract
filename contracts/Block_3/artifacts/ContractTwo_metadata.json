@@ -6,24 +6,34 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "contractOne",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "updateSomeAddress",
+				"name": "depositOnContractOneUsingCall",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOneUsingCallAndFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/Block_3/ContractCall.sol": "ContractTwo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/Block_3/ContractCall.sol": {
+			"keccak256": "0xb68d476324ed205409079069944c5496881f7057ca9e129097632430bb48a4a3",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://9091caa3380ae1808f27e6ff535dcd3c67170faee811f0ff6cbe54ef913a5414",
+				"dweb:/ipfs/QmQyQqjJ5y2gTnnip9ipZ2rWi79TsmXXAXuaeJez3b7LU6"
 			]
 		}
 	},

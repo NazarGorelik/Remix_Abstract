@@ -8,30 +8,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "b",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "getSum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "getVariable",
+				"name": "amount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,12 +36,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "variable",
+				"name": "sender",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -69,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewAndPureFunctions.sol": "ViewAndPureFunctions"
+			"contracts/Block_3/Structs.sol": "Paymentdetails"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -83,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ViewAndPureFunctions.sol": {
-			"keccak256": "0x3f04f29753c5d416e4cc92f9a272687da7473435f5d873e57c7ae85e7d27a3cd",
+		"contracts/Block_3/Structs.sol": {
+			"keccak256": "0x78b220a6859105f99fd005f6c7a6082b261ed70871d62b6e634e2c1b30f73dc1",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bd2c2e6f9e158d119e020f3731342d8292510d0fca306b66a9464046b8f77c71",
-				"dweb:/ipfs/QmVVu7GD8Xqxe9o76jRySTRjaMEA8toDmkhRTTRdsAA5w2"
+				"bzz-raw://a61e1344990c91ba4498e404480faa2b3cd0e15fba5bed36abca66918c4b90d4",
+				"dweb:/ipfs/QmWUuBhT3ZpoFoksSTrwxaHT1A8LxRX6KUCBaCs5UyZmoh"
 			]
 		}
 	},

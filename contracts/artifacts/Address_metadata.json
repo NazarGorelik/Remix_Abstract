@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessenger.sol": "Address"
+			"contracts/Constructor.sol": "Address"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,7 +57,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessenger.sol": {
+		"contracts/Constructor.sol": {
 			"keccak256": "0xb67578e105fbfb9a52cfcbe3b3d6f4c2f1877f4b470e43c0ee0a0307b03e5966",
 			"license": "UNLICENSED",
 			"urls": [

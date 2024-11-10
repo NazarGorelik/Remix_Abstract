@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/ViewAndPureFunctions.sol": "MessageSender"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
+		"contracts/ViewAndPureFunctions.sol": {
 			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
 			"license": "UNLICENSED",
 			"urls": [

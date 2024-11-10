@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressesWithBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceOfSmartContract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendFundes",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_3/Mapping_Advanced.sol": "Mapping_Advanced"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_3/Mapping_Advanced.sol": {
+			"keccak256": "0xc27fe2b535797ed2d3e2ffb8519d0b51466c0a916bda047d06cc8a9895048aaf",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e4e2560795258fcbcde9cd00a5ff7046c22343c5d9d250c944a1fbb401f727e1",
+				"dweb:/ipfs/QmREQDgEMnFE6vt3rA9ycnYRz7VKh8F231G33sQ3gdTSa6"
+			]
+		}
+	},
+	"version": 1
+}

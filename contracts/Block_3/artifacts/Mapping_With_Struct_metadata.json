@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numDeposits",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numWithdrawals",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numDeposits",
+						"type": "uint256"
+					}
+				],
+				"name": "getDepositNum",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Mapping_With_Struct.Transaction",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_3/Mapping_With_Struct.sol": "Mapping_With_Struct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_3/Mapping_With_Struct.sol": {
+			"keccak256": "0xfae5f3a01fcba6edcb85ce2cd9c43b89d1eb36f0eb0f4d827729c05d3f8a2fae",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://86df8e1464ba8e41330079c5f17870a37ed36de4964994751604d9e837996ea1",
+				"dweb:/ipfs/QmZpXbPx61HYh9S4FnNQTUqWTTibcouRsMnAgf8vJhUvFo"
+			]
+		}
+	},
+	"version": 1
+}

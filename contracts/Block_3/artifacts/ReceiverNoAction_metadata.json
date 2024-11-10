@@ -7,23 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "someAddress",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "updateSomeAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +36,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/Block_3/SendAndTransfer.sol": "ReceiverNoAction"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +50,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/Block_3/SendAndTransfer.sol": {
+			"keccak256": "0x10bccbde4cbd1e19af8d3e9403629a51fa4d7da0c63997f1fd812a7b3110c0de",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://6d9e1874d220b2a1394ca104596d08dbfc1131cc502cb91021f2d12275714250",
+				"dweb:/ipfs/QmZ4SSSE5G9PBXCVdtUzrkgqMtkz3f4D6w3X1fSMrJjTKJ"
 			]
 		}
 	},

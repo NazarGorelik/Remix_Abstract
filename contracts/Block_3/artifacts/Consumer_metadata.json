@@ -7,22 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "updateSomeAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/Block_3/WalletProject.sol": "Consumer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/Block_3/WalletProject.sol": {
+			"keccak256": "0xd51cb7e9f947b8f88ad0470c139e74d9ebe907488ef698a8071c339fd4c398c8",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://595c5d9d19021f52ee8803d8a6d3a289fa5d55f46d987c7d5b68115c794be3e6",
+				"dweb:/ipfs/QmcoJaUZPKukJVTs8qjr59nJPottmu3fVSdNKNm35o2SMz"
 			]
 		}
 	},

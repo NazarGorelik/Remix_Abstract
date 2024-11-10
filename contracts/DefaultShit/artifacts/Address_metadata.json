@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_someAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "someAddress",
+				"name": "myAddress",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -16,13 +27,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "updateSomeAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/BlockchainMessenger.sol": "Address"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/BlockchainMessenger.sol": {
+			"keccak256": "0xb67578e105fbfb9a52cfcbe3b3d6f4c2f1877f4b470e43c0ee0a0307b03e5966",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://21883efe8b57ac89847a2e40e6752a901c9475fcc25c1dfcb72ab6ba9a19daab",
+				"dweb:/ipfs/QmVUZpQxgiKUhy2gz7UG4Hhx7Q86KL2w7psTuBY6RVHVUJ"
 			]
 		}
 	},

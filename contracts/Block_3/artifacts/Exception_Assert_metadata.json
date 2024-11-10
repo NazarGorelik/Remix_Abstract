@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressesWithBalances",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "value",
+						"type": "uint8"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_3/Exception_Assert.sol": "Exception_Assert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_3/Exception_Assert.sol": {
+			"keccak256": "0x10794cc528cb12a268f7bb2effba265ee02e563845bfabd75cb6b80df649b599",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7f5737931fb5a3c8c321b9d691b336879430081a7874bd9df5a8ba711fb81714",
+				"dweb:/ipfs/QmVx2jEGWqvxQG1frDknbZDLJ7uLhHbPmy8sZPy4ZAEe54"
+			]
+		}
+	},
+	"version": 1
+}

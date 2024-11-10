@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTheBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_3/SendAndTransfer.sol": "Sender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_3/SendAndTransfer.sol": {
+			"keccak256": "0x10bccbde4cbd1e19af8d3e9403629a51fa4d7da0c63997f1fd812a7b3110c0de",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6d9e1874d220b2a1394ca104596d08dbfc1131cc502cb91021f2d12275714250",
+				"dweb:/ipfs/QmZ4SSSE5G9PBXCVdtUzrkgqMtkz3f4D6w3X1fSMrJjTKJ"
+			]
+		}
+	},
+	"version": 1
+}

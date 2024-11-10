@@ -6,54 +6,64 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "lastFunctionCall",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myuint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
+						"name": "_newUint",
 						"type": "uint256"
 					}
 				],
-				"name": "getSum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "setUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getVariable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "variable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -69,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewAndPureFunctions.sol": "ViewAndPureFunctions"
+			"contracts/Block_2/SampleFallback.sol": "SampleFallback"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -83,12 +93,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ViewAndPureFunctions.sol": {
-			"keccak256": "0x3f04f29753c5d416e4cc92f9a272687da7473435f5d873e57c7ae85e7d27a3cd",
+		"contracts/Block_2/SampleFallback.sol": {
+			"keccak256": "0x119df435eb4a468373ccd45b492258f31eec4097185ca9b125290360afc59776",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bd2c2e6f9e158d119e020f3731342d8292510d0fca306b66a9464046b8f77c71",
-				"dweb:/ipfs/QmVVu7GD8Xqxe9o76jRySTRjaMEA8toDmkhRTTRdsAA5w2"
+				"bzz-raw://45f5320d665d39e54ed2c1c7283646d7095fdc3fc0118aab931cd47a7a8ad7a5",
+				"dweb:/ipfs/QmVQSmB4uxMndbggh7cg82in4aFxubvfXYZKj9pEDvP6Rg"
 			]
 		}
 	},

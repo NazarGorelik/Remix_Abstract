@@ -7,22 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "someAddress",
+				"name": "getChoice",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "enum Enums.ActionChoices",
 						"name": "",
-						"type": "address"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "updateSomeAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MessageSender.sol": "MessageSender"
+			"contracts/Block_3/Enums.sol": "Enums"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MessageSender.sol": {
-			"keccak256": "0xc848103ce4720cc9478ed7522ba16ec2831d71194ff1b8ed1403ccd89591aedc",
+		"contracts/Block_3/Enums.sol": {
+			"keccak256": "0x49cfc2861d2ff6070904a89cadeb9f01b35b907598b0a3a0676ba138e72eabfe",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c7e62afa54bdfb0910fd0e7f71c693d84c2e213cb30c1a3bd97eeb622309cd28",
-				"dweb:/ipfs/QmSBPJUgjpszpMdKebKz1DVUH6nZpbuXcatpHfF85WosrB"
+				"bzz-raw://169f93111a910c710fd07c4a949aed648015d350463ec5c063893fe29b0be765",
+				"dweb:/ipfs/QmXxJNtZE3WZfN7GZPgqbFQK1aszVYVdyPmWUHDpSvEmy3"
 			]
 		}
 	},

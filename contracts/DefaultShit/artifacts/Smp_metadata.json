@@ -6,53 +6,43 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "decrementUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
+						"name": "_myUint",
 						"type": "uint256"
 					}
 				],
-				"name": "getSum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVariable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "variable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -69,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewAndPureFunctions.sol": "ViewAndPureFunctions"
+			"contracts/SampleContract.sol": "Smp"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -83,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ViewAndPureFunctions.sol": {
-			"keccak256": "0x3f04f29753c5d416e4cc92f9a272687da7473435f5d873e57c7ae85e7d27a3cd",
+		"contracts/SampleContract.sol": {
+			"keccak256": "0x2b1a8aacb2c84798d479e792e2aece2cab0aebdd52d621f9b6adcd44b9301968",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bd2c2e6f9e158d119e020f3731342d8292510d0fca306b66a9464046b8f77c71",
-				"dweb:/ipfs/QmVVu7GD8Xqxe9o76jRySTRjaMEA8toDmkhRTTRdsAA5w2"
+				"bzz-raw://4560f96a97399803aff753570dfae7d198f740f9017c541d2c55c96500e45db4",
+				"dweb:/ipfs/Qmf3xhn5KoaGxi3mMoki7p1qNJyedSM2aWUTnbNAogngGM"
 			]
 		}
 	},
