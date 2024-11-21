@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_4/Modifiers.sol": "Modifiers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_4/Modifiers.sol": {
+			"keccak256": "0x999010c4dba29f09dccad0b2a2a4b6505419163170168b1d624627e56c0b9617",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e4e25a3148e438055837a0076e4a63e81119e34b0a13c50cb441962e513278b4",
+				"dweb:/ipfs/QmdbauZdPXDTBkgrbEJARjuJTdgwad4c37r21ob4Gaas75"
+			]
+		},
+		"contracts/Block_4/Owner.sol": {
+			"keccak256": "0x760dbbcdcf5deb9509ad376f8cbc74e8c374393b8950fc2d3c9c1ebb4e5b0593",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://bb94bef8dae6e6cdeebfa8b8a1ae981cf3bee6503f84178432d16ad57d29b6fb",
+				"dweb:/ipfs/QmPUtdaUGZnp49dHQhtdPCtFAPYBjHvmdbfAA3c2aG9fwb"
+			]
+		}
+	},
+	"version": 1
+}

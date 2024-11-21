@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_4/NazarToken.sol": "ERCToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_4/NazarToken.sol": {
+			"keccak256": "0x6aad3127989fa747f6937e083d900897e43420ad550a7de6a4f909d9ccd0f9be",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://023502a5d7e7a69d8c349a37c720871cd6cd52e6bd57a363c2cf2a8dd99de801",
+				"dweb:/ipfs/QmfTeiYhKEKVJ2dnzMR2aG2nrF6v58VkwNY6tLpRgUkqGe"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "Message",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "printMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_4/Override.sol": "Child"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_4/Override.sol": {
+			"keccak256": "0x0f3a57efcc6228068895cbab46e16ec563abf2a3e933ecd43b8686d4642342a1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b696ac60904c842ac17b6d8467e6e04517cb84befdc174b293cb6aab0e537141",
+				"dweb:/ipfs/QmSf6wSZGMaSiBgfDiGT8WB9bZA3itwL1Dd2XxvtpQc5Ro"
+			]
+		}
+	},
+	"version": 1
+}

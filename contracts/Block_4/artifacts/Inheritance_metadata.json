@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testInheritance",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_4/Inheritance.sol": "Inheritance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_4/Inheritance.sol": {
+			"keccak256": "0xba06fa758780d0800cdfb4f8ca67ebff2c823be7cc5b08bdf22e7f772edeb52a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c86c06aaa0b71262777e0a2245832346656b74a4972bc075c5dc779c95e97417",
+				"dweb:/ipfs/QmaWzNYSmy3NPRCq9qeAc4NMuxHbTNUT4uJhsBbpLtucFT"
+			]
+		}
+	},
+	"version": 1
+}

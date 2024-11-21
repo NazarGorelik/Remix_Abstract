@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destorySmartContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block_4/SelfDestruct.sol": "SelfDestruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block_4/SelfDestruct.sol": {
+			"keccak256": "0xabe305abcdfed7eb3ba71e5f9cc0fa7233b12b77d4d47cf965d5990e908f9ed1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://801914501f824e3105559e22dc2c8c58a87b9d7b47545bf1fe89200cf78983fb",
+				"dweb:/ipfs/QmZc3xxX43xTmejMLEnEr1BsYPkcBVdA8Npx6yhaX9kSHi"
+			]
+		}
+	},
+	"version": 1
+}
